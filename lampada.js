@@ -8,18 +8,18 @@ function islampBroken() {
 
 function lampOn() {
     if (!islampBroken()) { /* ! significa negação, ou seja se a lampada não estiver quebrada, não faça nada ()*/
-        lamp.src = "./img/ligada.jpg";
+        lamp.src = "ligada.jpg";
     }
 }
 
 function lampOff() {
     if (!islampBroken()) {
-        lamp.src = './img/desligada.jpg';
+        lamp.src = 'desligada.jpg';
     }
 }
   
 function lampBroken() {
-    lamp.src = './img/quebrada.jpg';
+    lamp.src = 'quebrada.jpg';
 }
     
 turnOn.addEventListener("click", lampOn);
